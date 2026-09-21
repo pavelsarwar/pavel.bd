@@ -3,3 +3,6 @@
 .links>a>img[src="youth-hub.png"]{width:42px;height:42px;object-fit:contain;object-position:center;display:block;justify-self:center;border-radius:6px;padding:2px}
 
 .links>a>img[src="geg.png"]{width:42px;height:42px;object-fit:contain;object-position:center;display:block;justify-self:center;border-radius:6px;padding:2px}
+
+/* Keep organization logos consistently aligned inside link cards */
+.links>a>img[src*="youth-hub.png"]{width:42px!important;height:42px!important;object-fit:contain!important;object-position:center!important;display:block!important;justify-self:center!important;align-self:center!important;margin:0!important;padding:3px!important;border-radius:6px!important;background:transparent!important}
