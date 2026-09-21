@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/youthhub/pavel.bd/
+    - /bin/cp -R index.html style.css script.js youth-hub.png geg.png Google-for-Education.png "$DEPLOYPATH"
